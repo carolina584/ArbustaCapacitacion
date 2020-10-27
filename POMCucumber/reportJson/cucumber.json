@@ -1,0 +1,59 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 9,
+        "name": "buscar palabra",
+        "description": "",
+        "id": "conocer-definicon-de-palabra;buscar-palabra",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7274136200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "usuario ingresa a la pagina de Wikipedia",
+            "match": {
+              "location": "WikiStepDefinitions.usuario_ingresa_a_la_pagina_de_Wikipedia()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7895660500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "usuario busca la palabra",
+            "match": {
+              "location": "WikiStepDefinitions.usuario_busca_la_palabra()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1052821900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "usuario visualiza la defincion",
+            "match": {
+              "location": "WikiStepDefinitions.usuario_visualiza_la_defincion()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "conocer definicon de palabra",
+    "description": "  yo como usuario de Wikipedia\n  quiero buscar una palabra\n  para conocer defincion",
+    "id": "conocer-definicon-de-palabra",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/buscarPalabra.feature",
+    "tags": []
+  }
+]
